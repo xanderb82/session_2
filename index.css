@@ -20,6 +20,7 @@ header {
     .links {
 
         display:flex;
+        gap: 1em;
         flex-direction: row;
         justify-content: end;
 
