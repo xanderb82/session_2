@@ -1,0 +1,92 @@
+header {
+
+    background: maroon;
+    color: gold;
+    height: 115px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+    #logo {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+
+    }
+
+    .links {
+
+        display:flex;
+        flex-direction: row;
+        justify-content: end;
+
+    }
+
+    .text-gold {
+
+        color: gold;
+
+    }
+
+    .contents {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+aside {
+
+    flex: 1;
+    background: beige;
+    height: 230px;
+    width: 230px;
+    color: brown;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+
+}
+
+    .menu {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+
+    }
+
+    .text-brown {
+
+        color: brown;
+
+    }
+
+main {
+
+    flex: 2;
+    height: 230px;
+    display: flex;
+    background: lightgrey;
+    flex-direction: row;
+    justify-content: stretch;
+
+}
+
+    .text {
+
+        
+        font-size:larger;
+        text-align: justify;
+        display: flex;
+
+    }
+
+header, aside, main {
+
+    padding: 20px;
+
+}
