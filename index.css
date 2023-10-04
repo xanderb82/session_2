@@ -12,6 +12,8 @@ header {
     #logo {
 
         display: flex;
+        margin: 15px;
+        vertical-align: middle;
         flex-direction: row;
         justify-content: start;
 
@@ -43,7 +45,7 @@ aside {
 
     flex: 1;
     background: beige;
-    height: 230px;
+    height: auto;
     width: 230px;
     color: brown;
     text-align: left;
@@ -54,6 +56,7 @@ aside {
 
     .menu {
 
+        height: 230px;
         display: flex;
         flex-direction: column;
         justify-content: space-around; 
@@ -68,25 +71,45 @@ aside {
 
 main {
 
-    flex: 2;
-    height: 230px;
+    flex: 5;
+    height: auto;
     display: flex;
     background: lightgrey;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: stretch;
 
 }
 
+    .article {
+
+        text-align: center;
+        color: brown;
+
+    }    
+
     .text {
 
         
-        font-size:larger;
+        font-size: 14;
+        color: black;
         text-align: justify;
         display: flex;
 
     }
 
-header, aside, main {
+    .photo {
+
+        align-content: center;
+
+    }
+
+footer {
+
+background: maroon;
+
+}
+
+header, aside, main, footer {
 
     padding: 20px;
 
